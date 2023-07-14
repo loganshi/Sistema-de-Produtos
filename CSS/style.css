@@ -1,0 +1,41 @@
+.cabeçalho{
+    background-color: #ff4700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.texto-cabeçalho{
+    color: white;
+}
+.line-imput{
+    display: grid;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn.excluir{
+    color: #ff4700;
+    border: #ff4700 solid 2px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.btn.excluir:hover{
+    background-color: #ff4700;
+    color: white;
+
+}
+.btn.adicionar{
+    color: white;
+    background-color: #ff4700;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.btn.adicionar:hover{
+    background-color: #ff2600;
+    color: white;
+}
+.th{
+    background-color: #ff4700;
+}
