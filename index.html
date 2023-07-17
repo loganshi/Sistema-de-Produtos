@@ -28,16 +28,16 @@
         <br>
         <div>
             <div class="line-imput">
-                <input type="text" class="form-control" placeholder="Nome do produto...">
+                <input type="text" class="form-control" placeholder="Nome do produto..." id="produto">
             </div>
             <br>
             <div class="line-imput">
-                <input type="text" class="form-control" placeholder="Preço do produto..." aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Preço do produto..." id="preco">
             </div>
         </div>
         <div class="line-buttons text-end">
-        <button class="btn excluir" onclick="produto.excluir()">Excluir</button>
-        <button class="btn adicionar" onclick="produto.adicionar()">Adicionar</button>
+        <button class="btn excluir" onclick="produto.cancelar()">Cancelar</button>
+        <button class="btn adicionar" onclick="produto.salvar()">Salvar</button>
         </div>
     </div>
     <div class="container lista">
@@ -48,27 +48,36 @@
                 <th scope="col" class="teste">Produto</th>
                 <th scope="col" class="teste">Preço</th>
                 <th scope="col" class="teste">Ações</th>
-              </tr>
+              </tr> 
             </thead>
-            <tbody>
-              <tr>
+            <tbody id="tbody">
+              <!-- <tr>
                 <th scope="row">1</th>
                 <td>Headset Gamer</td>
                 <td>R$ 500</td>
-                <td></td>
-              </tr>
-              <tr>
+                <td>
+                  <img src="IMG/escrever.png" alt="">
+                  <img src="IMG/lata-de-lixo.png" alt="">
+                </td>
+              </tr> -->
+              <!-- <tr>
                 <th scope="row">2</th>
                 <td>Mouse Gamer</td>
                 <td>R$ 200</td>
-                <td></td>
+                <td>
+                  <img src="IMG/escrever.png" alt="">
+                  <img src="IMG/lata-de-lixo.png" alt="">
+                </td>
               </tr>
               <tr>
                 <th scope="row">3</th>
                 <td>Teclado Gamer</td>
                 <td>R$ 400</td>
-                <td></td>
-              </tr>
+                <td>
+                  <img src="IMG/escrever.png" alt="">
+                  <img src="IMG/lata-de-lixo.png" alt="">
+                </td>
+              </tr> -->
             </tbody>
           </table>
     </div>
